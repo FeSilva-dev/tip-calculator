@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/script.js"></script>
+    <title>Gorjetinha</title>
+</head>
+<body>
+    <div id="container">
+        <div class="form-gorjeta">
+            <form onsubmit="Gorjeta.calcular(event)">
+                <h2>Calcular Gorjeta</h2>
+                <div class="input-field">
+                    <span>Qual o valor da conta?</span>
+                    <input type="number" name="amount" id="amount" placeholder="R$">
+                </div>
+                <div class="input-field">
+                    <span>Quantas pessoas vão dividir a conta?</span>
+                    <input type="number" name="people" id="people">
+                </div>
+                <div class="input-field">
+                    <span>Como foi o atendimento?</span>
+                    <select name="quality" id="quality">
+                        <option selected disabled>Selecione uma opção</option>
+                        <option value="0.1">20% - Razoável</option>
+                        <option value="0.2">40% - Aceitável</option>
+                        <option value="0.3">60% - Bom</option>
+                        <option value="0.4">80% - Muito Bom</option>
+                        <option value="0.5">100% - Excelente</option>
+                    </select>
+                </div>
+                <div class="form-submit">
+                    <button>Calcular</button>
+                </div>
+            </form>
+
+            <div class="result">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

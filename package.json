@@ -1,0 +1,12 @@
+{
+  "name": "gorjetas",
+  "version": "1.0.0",
+  "description": "<h4 align=\"center\">\r   Gorjetinha is an app to calculate tips.\r </h4>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
